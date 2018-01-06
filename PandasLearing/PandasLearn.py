@@ -49,5 +49,5 @@ newRowX[0] = 1
 newRowX[1] = 0
 print('newRowX:' + str(newRowX))
 
-predictedY = clf.predict(newRowX)
-print('predictedY:' + str(predictedY))
+# predictedY = clf.predict(newRowX)
+# print('predictedY:' + str(predictedY))
