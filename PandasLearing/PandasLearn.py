@@ -40,6 +40,7 @@ print('clf' + str(clf))
 
 with open("allElectronicInformationGainOri.dot", 'w') as f:
     f= tree.export_graphviz(clf, feature_names=vec.get_feature_names(),out_file=f)
+    # cmd dot -Tpdf D:\test\MachineLearing\PandasLearing\allElectronicInformationGainOri.dot -o D:\test\MachineLearing\PandasLearing\outpu.pdf
 
 oneRowx = dummyX[0,:]
 print('oneRowX:' + str(oneRowx))
@@ -49,5 +50,5 @@ newRowX[0] = 1
 newRowX[1] = 0
 print('newRowX:' + str(newRowX))
 
-predictedY = clf.predict(newRowX)
+predictedY = clf.predict([newRowX])
 print('predictedY:' + str(predictedY))
