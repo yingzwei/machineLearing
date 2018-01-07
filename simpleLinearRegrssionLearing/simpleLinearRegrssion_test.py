@@ -1,3 +1,7 @@
+'''
+简单的线性回归算法
+'''
+
 import numpy as np
 
 def fitSLR(x,y):

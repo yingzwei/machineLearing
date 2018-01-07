@@ -1,3 +1,6 @@
+'''
+¾ö²ßÊ÷
+'''
 import pandas as pd
 from sklearn import preprocessing 
 from sklearn import tree
