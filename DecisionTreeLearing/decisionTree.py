@@ -2,28 +2,8 @@ import pandas as pd
 from sklearn import preprocessing 
 from sklearn import tree
 from sklearn.externals.six import StringIO
-
-
-
-data = pd.read_csv('tree.csv')
-# print(data.head(0))
-heads = data.columns
-
-featureList = []
-labelList = []
-
-for row in data.values:
-    labelList.append(row[len(row)-1])
-
-print(labelList)    
-
-import pandas as pd
-from sklearn import preprocessing 
-from sklearn import tree
-from sklearn.externals.six import StringIO
 from sklearn.feature_extraction import DictVectorizer
 from numba.tests.test_deprecations import dummy
-from statsmodels.genmod.tests.results.results_glm_poisson_weights import predicted
 
 
 data = pd.read_csv('tree.csv')
