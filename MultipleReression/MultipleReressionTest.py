@@ -20,4 +20,3 @@ xPred = [102,6]
 yPred = regr.predict([xPred])
 print('Predicted y:')
 print(yPred)
-#
