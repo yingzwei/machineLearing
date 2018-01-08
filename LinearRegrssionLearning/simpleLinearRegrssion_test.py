@@ -1,20 +1,20 @@
+#! coding=utf8
 '''
-¼òµ¥µÄÏßĞÔ»Ø¹éËã·¨
+ç®€å•çš„çº¿æ€§å›å½’
 '''
-
 import numpy as np
 
 def fitSLR(x,y):
     n = len(x)
-    # ·Ö×Ó
+    # åˆ†å­
     dinominator = 0
-    # ·ÖÄ¸
+    # åˆ†æ¯
     numerator = 0
     for i in range(0,n):
         numerator +=(x[i] - np.mean(x))*(y[i] - np.mean(y))
         dinominator += (x[i] - np.mean(x))**2
-    b1 = numerator/float(dinominator)  # ÇóĞ±ÂÊ
-    b0 = np.mean(y)/float(np.mean(x))  # Çó½Ø¾à
+    b1 = numerator/float(dinominator)  # åˆ†å­
+    b0 = np.mean(y)/float(np.mean(x))  # åˆ†æ¯
     return b0,b1
 
 def predict(x,b0,b1):
@@ -25,7 +25,7 @@ y=[14,24,18,17,27]
 
 b0,b1 = fitSLR(x, y)
 
-print('intercept¡ª½Ø¾à:%.2f, slope-Ğ±ÂÊ:%.2f' %(b0, b1))
+print('intercept-æˆªè·:%.2f, slope-æ–œç‡:%.2f' %(b0, b1))
 
 
 x_test = 6
