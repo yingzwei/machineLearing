@@ -16,8 +16,7 @@ print(regr.coef_)
 print('intercept:')
 print(regr.intercept_)
 
-xPred = [102,6]
+xPred = [100,4]
 yPred = regr.predict([xPred])
 print('Predicted y:')
 print(yPred)
-#
