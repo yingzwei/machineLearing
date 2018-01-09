@@ -4,7 +4,7 @@
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">Default</pydev_property>
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
 <path>/${PROJECT_DIR_NAME}/DecisionTree</path>
-<path>/${PROJECT_DIR_NAME}/LinerRegression</path>
+<path>/${PROJECT_DIR_NAME}/LinearRegression</path>
 <path>/${PROJECT_DIR_NAME}/MultipleRegression</path>
 <path>/${PROJECT_DIR_NAME}/PandasLearn</path>
 </pydev_pathproperty>
