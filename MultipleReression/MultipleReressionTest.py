@@ -5,9 +5,10 @@ from sklearn import datasets, linear_model
 data = pd.read_csv('MultipleLinerReression.csv') 
 
 X = data.values[:,:2]
-x = data.values[:,1:-1]
+x = data.values[:,2:-1]
 Y = data.values[:,-1]
 print(X)
+print(x)
 print(Y)
 
 regr= linear_model.LinearRegression()
