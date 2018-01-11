@@ -35,7 +35,7 @@ m, n = np.shape(x)
 # print(x)
 # print(y)
 numIterations = 100000
-alpha = 0.00005
+alpha = 0.000005
 theta = np.ones(n)
 theta = gradientDescent(x, y, theta, alpha, m, numIterations)
 print(theta)
