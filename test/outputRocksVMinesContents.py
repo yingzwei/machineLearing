@@ -23,12 +23,14 @@ for line in data:
         r = row[i]
         a =  re.sub("\-*\d+(?:\.\d+)?", "", r)
 #         print(a)
-        a = r.replace(a,'')
-#         print(a)
-        if len(a)>0:
-            xRow[i] = float('%.4f' %float(a))
-        else:
+        if a.find('M') != -1 :
             xRow[i] =0
+        elif a.find('R') != -1 :
+            xRow[i] =1 
+        else:
+            a = r.replace(a,'')
+#             print(a)
+            xRow[i] = float('%.4f' %float(a))
     xList.append(xRow)
 
 mat_list = np.mat(xList)
