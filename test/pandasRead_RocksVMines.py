@@ -10,7 +10,7 @@ import numpy as np
 data = pd.read_pickle('outData.pkl')
 # print(np.shape(data))
 
-type = [0]*3
+# type = [0]*3
 col = 3
 colData = []
 for row in data:
