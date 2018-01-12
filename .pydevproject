@@ -8,5 +8,6 @@
 <path>/${PROJECT_DIR_NAME}/MultipleRegression</path>
 <path>/${PROJECT_DIR_NAME}/PandasLearn</path>
 <path>/${PROJECT_DIR_NAME}/logisticRegression</path>
+<path>/${PROJECT_DIR_NAME}/test</path>
 </pydev_pathproperty>
 </pydev_project>
