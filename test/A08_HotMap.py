@@ -11,6 +11,6 @@ url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/co
 data = pd.read_csv(url, header=None ,prefix= 'V')
 
 corMat = df(data.corr())
-print(corMat)
+# print(corMat)
 plt.pcolor(corMat)
 plt.show()
