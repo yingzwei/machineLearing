@@ -50,7 +50,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         #print(arrayGetOpc[1].text())
         while  1>0:
             opc=OpenOPC.client
-            opc.connect(opcserver,remotehost)
+            opc.connect('Matrikon.OPC.Simulation', 'localhost')
             (opcvalue,opcstat,opctime) = opc.read(tagList[0])
             arrayGetOpc[1].setText(opcvalue)
             opc.close()
