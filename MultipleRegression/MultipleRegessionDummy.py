@@ -1,5 +1,5 @@
 '''
-Created on 2018年1月9日
+Created on 2018骞�1鏈�9鏃�
 
 @author: Administrator
 '''
@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 from sklearn import linear_model
 
-data = pd.read_csv('MultipleLinerReression.csv') 
+data = pd.read_csv('MultipleLinerRegression.csv') 
 #print(data)
 
 x_category = data.values[:,2:-1]
@@ -27,7 +27,7 @@ dummy_x = np.mat(x_dummy)
 data['car'] = dummy_x[:,0]
 data['suv'] = dummy_x[:,1]
 data['svm'] = dummy_x[:,1]
-# 删除'category'列名的数据
+# 鍒犻櫎'category'鍒楀悕鐨勬暟鎹�
 #data.drop('category', axis=1, inplace=True)
 X = data.iloc[:,[0,1,4,5,6]]
 Y = data.iloc[:,3]
@@ -42,6 +42,6 @@ regr.fit(X, Y)
 
 xPred = [100,4,0,1,0]
 yPred = regr.predict([xPred])
-print('Predicted y:')
+print('预测所需时间为:')
 print(yPred)
 #

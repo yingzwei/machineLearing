@@ -1,11 +1,12 @@
 '''
-Created on 2018å¹´1æœˆ15æ—¥
+Created on 2018å¹?1æœ?15æ—?
 
 @author: Administrator
 '''
-import pandas as pd
 from math import sqrt
 import numpy as np
+import pandas as pd
+
 
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data'
 data = pd.read_csv(url, header=None ,prefix= 'V')

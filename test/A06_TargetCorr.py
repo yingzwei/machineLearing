@@ -1,11 +1,12 @@
 '''
-Created on 2018年1月15日
-分类问题标签与实数值属性之间的相关性
+Created on 2018�?1�?15�?
+分类问题标签与实数�?�属性之间的相关�?
 @author: Administrator
 '''
-import pandas as pd
 import matplotlib.pyplot as plt
+import pandas as pd
 from random import uniform
+
 
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data'
 data = pd.read_csv(url, header=None ,prefix= 'V')

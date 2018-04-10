@@ -1,12 +1,12 @@
 '''
-Created on 2018å¹´1æœˆ11æ—¥
+Created on 2018å¹?1æœ?11æ—?
 
 @author: Administrator
 '''
-import urllib.request as req
 import numpy as np
 import pandas as pd
 import re
+import urllib.request as req
 
 
 data = req.urlopen('https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data')

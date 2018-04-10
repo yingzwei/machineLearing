@@ -1,10 +1,10 @@
 '''
-Created on 2018年1月12日
+Created on 2018�?1�?12�?
 
 @author: Administrator
 '''
-import pandas as pd
 import numpy as np
+import pandas as pd
 
 
 data = pd.read_pickle('outData.pkl')
@@ -19,7 +19,7 @@ for row in data:
 colArray = np.array(colData)
 # print(colArray)
 
-colMean = np.mean(colArray) # 计算平均值
+colMean = np.mean(colArray) # 计算平均�?
 colstd = np.std(colArray)  # 计算标准偏差
 #print(colMean)
 #print(colstd)

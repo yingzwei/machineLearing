@@ -1,8 +1,8 @@
 eclipse.preferences.version=1
 encoding//CommonlyUsedFunctions/FibonacciFun.py=utf-8
-encoding//CommonlyUsedFunctions/PrimeFactor.py=utf-8
 encoding//CommonlyUsedFunctions/markovChain.py=utf-8
-encoding//CommonlyUsedFunctions/palindrome.py=utf-8
-encoding//LinearRegression/simpleLinearRegression_test.py=utf8
-encoding//PandasLearn/matplotLearing_plot.py=utf-8
+encoding//ExpertSystemPY/test1.py=utf8
+encoding//MultipleRegression/MultipleRegessionDummy.py=UTF-8
+encoding//QTtest/Main.py=utf-8
+encoding//QTtest/Ui_Main.py=utf-8
 encoding/<project>=UTF-8
